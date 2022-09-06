@@ -13,9 +13,6 @@ const deploy = async () => {
   const Tezos = new TezosToolkit(url);
   Tezos.setProvider({ signer: signer });
 
-  console.log("signer: ", signer);
-  console.log("signer: ", Tezos);
-
   try {
     const { hash, contractAddress } = await Tezos.contract.originate({
       code: require("../build/ledger.json"),

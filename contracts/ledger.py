@@ -475,9 +475,9 @@ if "templates" not in __name__:
     sp.add_compilation_target(
         "ledger",
         FA12(
-            admin   = sp.address("tz1M9CMEtsXm3QxA7FmMU2Qh7xzsuGXVbcDr"),
-            owner   = sp.address("tz1M9CMEtsXm3QxA7FmMU2Qh7xzsuGXVbcDr"),
-            owner_candidate   = sp.address("tz1M9CMEtsXm3QxA7FmMU2Qh7xzsuGXVbcDr"),
+            admin   = sp.address("tz1PpDW7JQ9PAeL4iktS2dTJ6j6XgvxhV1jx"),
+            owner   = sp.address("tz1PxJqNi2v3yczR3tWK5trdDKrwj3k5grfG"),
+            owner_candidate   = sp.address("tz1PxJqNi2v3yczR3tWK5trdDKrwj3k5grfG"),
             config  = FA12_config(
                 support_upgradable_metadata         = True,
                 use_token_metadata_offchain_view    = True
