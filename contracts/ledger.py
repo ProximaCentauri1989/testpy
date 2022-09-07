@@ -480,7 +480,7 @@ if "templates" not in __name__:
             owner_candidate   = sp.address("tz1PxJqNi2v3yczR3tWK5trdDKrwj3k5grfG"),
             config  = FA12_config(
                 support_upgradable_metadata         = True,
-                use_token_metadata_offchain_view    = True
+                use_token_metadata_offchain_view    = False
             ),
             token_metadata = {
                 "decimals"    : "0",             # Mandatory by the spec
